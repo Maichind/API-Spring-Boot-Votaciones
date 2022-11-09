@@ -1,10 +1,12 @@
-package controlers;
+package Mind.Project.securityVotaciones.controlers;
 
-import models.Usuarios;
-import repositories.repositorioUsuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import Mind.Project.securityVotaciones.models.Usuarios;
+import Mind.Project.securityVotaciones.repositories.repositorioUsuario;
+
 import java.util.List;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

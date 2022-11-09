@@ -1,7 +1,8 @@
-package repositories;
+package Mind.Project.securityVotaciones.repositories;
 
-import models.Permisos; 
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import Mind.Project.securityVotaciones.models.Permisos;
 
 public interface repositorioPermisos extends MongoRepository<Permisos,String>{
     

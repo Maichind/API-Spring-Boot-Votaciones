@@ -1,4 +1,4 @@
-package models;
+package Mind.Project.securityVotaciones.models;
 
 import lombok.Data; 
 import org.springframework.data.annotation.Id; 

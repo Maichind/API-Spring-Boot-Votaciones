@@ -1,10 +1,12 @@
-package controlers;
+package Mind.Project.securityVotaciones.controlers;
 
-import models.RolUsuario;
-import repositories.repositorioRol;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import Mind.Project.securityVotaciones.models.RolUsuario;
+import Mind.Project.securityVotaciones.repositories.repositorioRol;
+
 import java.util.List;
 
 @CrossOrigin
