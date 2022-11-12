@@ -12,9 +12,8 @@ public class Permisos {
     private String url; 
     private String metodo;
 
-    public Permisos(String url, String metodo) {
-        this.url = url;
-        this.metodo = metodo;
+    public Permisos() {
+        
     }
 
     public String get_id() { 

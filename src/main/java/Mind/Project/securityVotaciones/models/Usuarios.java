@@ -1,7 +1,8 @@
 package Mind.Project.securityVotaciones.models;
 
 import lombok.Data; 
-import org.springframework.data.annotation.Id; 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document; 
 
 @Data 
@@ -12,11 +13,11 @@ public class Usuarios {
     private String seudonimo; 
     private String contrasena;
     private String correo;
+    @DBRef
+    private RolUsuario rol;
 
-    public Usuarios(String seudonimo, String contrasena, String correo) {
-        this.seudonimo = seudonimo;
-        this.contrasena = contrasena;
-        this.correo = correo;
+    public Usuarios() {
+       
     } 
 
     public String get_id() { 
